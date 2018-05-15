@@ -1,0 +1,43 @@
+body{font-family:"宋体"; font-size:12px; color:#000;}
+body, ul, li, dl, dt, dd, form, p, h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+ul, li{list-style:none;}
+img{border:0;}
+a{text-decoration:none; color:#000; outline:none; blr:expression(this.onFocus=this.blur());}
+.clearFloat:after{clear:both; height:0; content:""; visibility:hidden; display:block;}
+.clearFloat{zoom:1;}
+
+
+
+
+#demo_1{width: 100%; height: 600px; margin: 0 auto 40px auto; position: relative; overflow: hidden;}
+#demo_1 ul{width: 1920px; height: 600px; overflow: hidden; position: relative; left: 50%; margin-left: -960px;}
+#demo_1 ul li{width: 1920px; height: 600px; *vertical-align: middle;}
+#demo_1 ul li a{display: block; width: 1920px; height: 600px; _float: left;}
+#demo_1 ul li a img{_display: block;}
+#demo_1 .prev,
+#demo_1 .next{position: absolute; top: 260px; z-index: 1000; width: 40px; height: 80px; line-height: 80px; text-align: center; text-indent: -9999px; background: url(images/prev_next.png) no-repeat 0 0; _background: url(images/prev_next.gif) no-repeat 0 0;}
+#demo_1 .prev{left: 40px; background-position: 0 0;}
+#demo_1 .next{right: 40px; background-position: -40px 0;}
+#demo_1 .prev:hover{background-position: 0 -80px;}
+#demo_1 .next:hover{background-position: -40px -80px;}
+#demo_1 .pager{position: absolute; bottom: 20px; left: 0; z-index: 1000; width: 100%; height: 12px; overflow: hidden; text-align: center;}
+#demo_1 .pager span{display: inline-block; *display: inline; *zoom: 1; width: 12px; height: 12px; overflow: hidden; margin: 0 5px; cursor: pointer; background: url(images/pager.png) no-repeat 0 0; _background: url(images/pager.gif) no-repeat 0 0; text-indent: -9999px; *text-indent: 0; *font-size: 0px; *line-height: 0;}
+#demo_1 .pager span.cycle-pager-active{background-position: 0 -12px;}
+
+
+
+
+#demo_2{width: 800px; height: 450px; margin: 0 auto 40px auto; position: relative;}
+#demo_2 ul{width: 800px; height: 450px; overflow: hidden; position: relative;}
+#demo_2 ul li{width: 800px; height: 450px; *vertical-align: middle;}
+#demo_2 ul li a{display: block; width: 800px; height: 450px; _float: left;}
+#demo_2 ul li a img{_display: block;}
+#demo_2 .prev,
+#demo_2 .next{position: absolute; top: 185px; z-index: 1000; width: 40px; height: 80px; line-height: 80px; text-align: center; text-indent: -9999px; background: url(images/prev_next.png) no-repeat 0 0; _background: url(images/prev_next.gif) no-repeat 0 0;}
+#demo_2 .prev{left: -80px; background-position: 0 0;}
+#demo_2 .next{right: -80px; background-position: -40px 0;}
+#demo_2 .prev:hover{background-position: 0 -80px;}
+#demo_2 .next:hover{background-position: -40px -80px;}
+#demo_2 .pager{position: absolute; bottom: -32px; left: 0; z-index: 1000; width: 100%; height: 12px; overflow: hidden; text-align: center;}
+#demo_2 .pager span{display: inline-block; *display: inline; *zoom: 1; width: 12px; height: 12px; overflow: hidden; margin: 0 5px; cursor: pointer; background: url(images/pager.png) no-repeat 0 0; _background: url(images/pager.gif) no-repeat 0 0; text-indent: -9999px; *text-indent: 0; *font-size: 0px; *line-height: 0;}
+#demo_2 .pager span.cycle-pager-active{background-position: 0 -12px;}
